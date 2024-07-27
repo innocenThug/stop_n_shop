@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpage.css">
+    <title>loginpage</title>
+</head>
+<body align="center">
+    <br><br>
+    <div>
+        <h1>LOGIN PAGE</h1>
+    </div><br>
+
+    <div>
+        <form>
+            <label for="name">NAME:</label>
+            <input type="text" id="name" placeholder="enter your name"><br><br>
+            <label for="phn">PHONE:</label>
+            <input type="tel" id="phn" maxlength="12" value="+91" placeholder="enter your number"><br><br>
+            <label for="date">DOB:</label>
+            <input type="date" id="date" placeholder="enter your birth date"><br><br>
+            <label for="mail">email:</label>
+            <input type="email" id="mail" placeholder="enter your mail id"><br><br>
+            <label for="password">password:</label>
+            <input type="password"placeholder="enter your password"><br><br>
+            <label>Re-enter pasword:</label>
+            <input type="password" placeholder="confirm password"/><br><br>
+            
+            <fieldset>
+                <legend>SELECT YOUR STATE</legend>
+
+                <input type="radio" name="state" id="ka"/><label for="ka">Karnataka</label>
+                <input type="radio" name="state" id="ke"/><label for="ke">Kerala</label>
+                <input type="radio" name="state" id="TN"/><label for="TN">Tamilnadu</label>
+                <input type="radio" name="state" id="GJ"/><label for="GJ">Gujarat</label>
+                <input type="radio" name="state" id="MH"/><label for="MH">Maharashtra</label>
+            </fieldset>
+              <!---<button>LOGIN</button>--->
+              <input type="button" value="Reset">
+              <input type="button" value="LOGIN">
+        </form><br>
+    </div>
+
+</body>
+</html>

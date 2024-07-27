@@ -1,0 +1,79 @@
+body{
+    background-color:darkseagreen;
+    font-family:fantasy;
+}
+.head{
+    background-color:honeydew;
+    text-transform:uppercase;
+    text-shadow:3px 3px 3px wheat;
+    text-align:center;
+    opacity:1;
+}
+div.h1 {
+    background-color: lightseagreen;
+}
+.head:hover {
+    background-color:rgb(115,255,115);
+    text-transform:lowercase;
+    text-shadow: 3px 3px 3px rgb(7,6,5);
+    text-align:center;
+    opacity:1;
+}
+div.form {
+  border: ivory solid 8px;
+  border-radius:8px;
+  margin-left:300px;
+  margin-right:300px;
+  padding:20px;
+}
+form {
+    text-align:center;
+    background-color:darkseagreen;
+    border: ivory double 8px;
+    padding:20px;
+    margin:auto;
+    width:60;
+    letter-spacim=ng:2px;
+}
+input {
+    background-color:whitesmoke;
+}
+input:focus {
+    background-color:yellowgreen;
+    border:yellow solid 3px;
+}
+button {
+    background-color:white;
+    color:yellowgreen;
+    border:yellowgreen solid 3px;
+    border-radius:10px;
+}
+button:active {
+    background-color:yellowgreen;
+    color:rgb(255,255,255);
+    border:rgb(255,255,255) solid 3px;
+    border-radius:10px;
+}
+img {
+    width:100px;
+    height:150px;
+    opacity:0.5;
+}
+img:first-child {
+    width:200px;
+    height:250px;
+    opacity:1;
+}
+h2:last-child {
+ text-align:center;
+ color:red;
+ background-color:seashell
+}
+h2:first-child {
+    text-align:center;
+    color:red;
+    background-color:seashell
+   }
+   h2:hover {
+       color:seashell;
+   }
